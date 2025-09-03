@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovacomp | Repositorio de Proyectos</title>
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i data-feather="cpu" class="text-blue-500 h-8 w-8"></i>
+                        <span class="ml-2 text-xl font-bold gradient-text">Innovacomp</span>
+                    </div>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:items-center space-x-8">
+                    <a href="#" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-blue-500 text-sm font-medium">Proyectos</a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Servicios</a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Equipo</a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Contacto</a>
+                </div>
+                <div class="-mr-2 flex items-center sm:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-controls="mobile-menu" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-50 to-green-50 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+                <span class="block">Nuestro</span>
+                <span class="block gradient-text">Repositorio de Proyectos</span>
+            </h1>
+            <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                Explora nuestra colección de proyectos innovadores que hemos desarrollado para clientes de todo el mundo.
+            </p>
+            <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                <div class="rounded-md shadow">
+                    <a href="#projects" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                        Ver Proyectos
+                    </a>
+                </div>
+                <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                        Contáctanos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Nuestros <span class="gradient-text">Proyectos</span>
+            </h2>
+            <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                Cada proyecto representa nuestra pasión por la innovación y la excelencia técnica.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <!-- Project 1 -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 ease-in-out" data-aos="fade-up">
+                <div class="h-48 bg-gradient-to-r from-blue-400 to-green-400 flex items-center justify-center">
+                    <i data-feather="code" class="text-white h-16 w-16"></i>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center">
+                        <span class="inline-block px-2 py-1 text-xs font-semibold text-blue-800 bg-blue-100 rounded-full">Desarrollo Web</span>
+                        <span class="ml-2 text-xs text-gray-500">Junio 2023</span>
+                    </div>
+                    <h3 class="mt-2 text-xl font-semibold text-gray-900">Plataforma E-commerce</h3>
+                    <p class="mt-3 text-base text-gray-500">
+                        Solución completa de comercio electrónico con integración de pagos y gestión de inventario.
+                    </p>
+                    <div class="mt-4 flex items-center">
+                        <div class="flex-shrink-0">
+                            <i data-feather="github" class="h-5 w-5 text-gray-400"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Ver en GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 ease-in-out" data-aos="fade-up" data-aos-delay="100">
+                <div class="h-48 bg-gradient-to-r from-purple-400 to-pink-400 flex items-center justify-center">
+                    <i data-feather="smartphone" class="text-white h-16 w-16"></i>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center">
+                        <span class="inline-block px-2 py-1 text-xs font-semibold text-purple-800 bg-purple-100 rounded-full">App Móvil</span>
+                        <span class="ml-2 text-xs text-gray-500">Abril 2023</span>
+                    </div>
+                    <h3 class="mt-2 text-xl font-semibold text-gray-900">App de Salud</h3>
+                    <p class="mt-3 text-base text-gray-500">
+                        Aplicación móvil para seguimiento de hábitos saludables con integración de wearables.
+                    </p>
+                    <div class="mt-4 flex items-center">
+                        <div class="flex-shrink-0">
+                            <i data-feather="github" class="h-5 w-5 text-gray-400"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Ver en GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 ease-in-out" data-aos="fade-up" data-aos-delay="200">
+                <div class="h-48 bg-gradient-to-r from-yellow-400 to-red-400 flex items-center justify-center">
+                    <i data-feather="database" class="text-white h-16 w-16"></i>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center">
+                        <span class="inline-block px-2 py-1 text-xs font-semibold text-yellow-800 bg-yellow-100 rounded-full">Big Data</span>
+                        <span class="ml-2 text-xs text-gray-500">Febrero 2023</span>
+                    </div>
+                    <h3 class="mt-2 text-xl font-semibold text-gray-900">Sistema de Análisis</h3>
+                    <p class="mt-3 text-base text-gray-500">
+                        Plataforma de análisis de datos en tiempo real para toma de decisiones empresariales.
+                    </p>
+                    <div class="mt-4 flex items-center">
+                        <div class="flex-shrink-0">
+                            <i data-feather="github" class="h-5 w-5 text-gray-400"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Ver en GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 ease-in-out" data-aos="fade-up">
+                <div class="h-48 bg-gradient-to-r from-green-400 to-blue-400 flex items-center justify-center">
+                    <i data-feather="cloud" class="text-white h-16 w-16"></i>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center">
+                        <span class="inline-block px-2 py-1 text-xs font-semibold text-green-800 bg-green-100 rounded-full">Cloud</span>
+                        <span class="ml-2 text-xs text-gray-500">Diciembre 2022</span>
+                    </div>
+                    <h3 class="mt-2 text-xl font-semibold text-gray-900">Migración a la Nube</h3>
+                    <p class="mt-3 text-base text-gray-500">
+                        Migración completa de infraestructura a AWS con optimización de costos y rendimiento.
+                    </p>
+                    <div class="mt-4 flex items-center">
+                        <div class="flex-shrink-0">
+                            <i data-feather="github" class="h-5 w-5 text-gray-400"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Ver en GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 ease-in-out" data-aos="fade-up" data-aos-delay="100">
+                <div class="h-48 bg-gradient-to-r from-indigo-400 to-purple-400 flex items-center justify-center">
+                    <i data-feather="shield" class="text-white h-16 w-16"></i>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center">
+                        <span class="inline-block px-2 py-1 text-xs font-semibold text-indigo-800 bg-indigo-100 rounded-full">Seguridad</span>
+                        <span class="ml-2 text-xs text-gray-500">Octubre 2022</span>
+                    </div>
+                    <h3 class="mt-2 text-xl font-semibold text-gray-900">Sistema de Seguridad</h3>
+                    <p class="mt-3 text-base text-gray-500">
+                        Solución integral de ciberseguridad con monitoreo 24/7 y protección contra amenazas.
+                    </p>
+                    <div class="mt-4 flex items-center">
+                        <div class="flex-shrink-0">
+                            <i data-feather="github" class="h-5 w-5 text-gray-400"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Ver en GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 ease-in-out" data-aos="fade-up" data-aos-delay="200">
+                <div class="h-48 bg-gradient-to-r from-pink-400 to-red-400 flex items-center justify-center">
+                    <i data-feather="bar-chart-2" class="text-white h-16 w-16"></i>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center">
+                        <span class="inline-block px-2 py-1 text-xs font-semibold text-pink-800 bg-pink-100 rounded-full">IA</span>
+                        <span class="ml-2 text-xs text-gray-500">Agosto 2022</span>
+                    </div>
+                    <h3 class="mt-2 text-xl font-semibold text-gray-900">Motor de Recomendación</h3>
+                    <p class="mt-3 text-base text-gray-500">
+                        Sistema de recomendación personalizado basado en machine learning para e-commerce.
+                    </p>
+                    <div class="mt-4 flex items-center">
+                        <div class="flex-shrink-0">
+                            <i data-feather="github" class="h-5 w-5 text-gray-400"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Ver en GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center">
+            <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                Cargar más proyectos
+                <i data-feather="arrow-right" class="ml-2 h-4 w-4"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-blue-400 font-semibold tracking-wide uppercase">Nuestro Impacto</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+                    Innovando para un futuro mejor
+                </p>
+            </div>
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                    <div class="text-center" data-aos="fade-up">
+                        <div class="text-5xl font-extrabold text-blue-400">50+</div>
+                        <div class="mt-2 text-base text-gray-300">Proyectos completados</div>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-5xl font-extrabold text-green-400">30+</div>
+                        <div class="mt-2 text-base text-gray-300">Clientes satisfechos</div>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-5xl font-extrabold text-yellow-400">15+</div>
+                        <div class="mt-2 text-base text-gray-300">Premios obtenidos</div>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-5xl font-extrabold text-red-400">100%</div>
+                        <div class="mt-2 text-base text-gray-300">Compromiso con la calidad</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="bg-white">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">¿Listo para comenzar?</span>
+                <span class="block gradient-text">Hablemos sobre tu próximo proyecto.</span>
+            </h2>
+            <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+                <div class="inline-flex rounded-md shadow">
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                        Contactar ahora
+                        <i data-feather="mail" class="ml-2 h-4 w-4"></i>
+                    </a>
+                </div>
+                <div class="ml-3 inline-flex rounded-md shadow">
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50">
+                        Llamar
+                        <i data-feather="phone" class="ml-2 h-4 w-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    <h3 class="text-white text-lg font-semibold">Innovacomp</h3>
+                    <p class="mt-4 text-gray-300 text-sm">
+                        Transformando ideas en soluciones tecnológicas innovadoras desde 2015.
+                    </p>
+                    <div class="mt-4 flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold">Proyectos</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Todos los proyectos</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Desarrollo Web</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Aplicaciones Móviles</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Inteligencia Artificial</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Cloud Computing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold">Empresa</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Sobre nosotros</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Equipo</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Carreras</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Blog</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Prensa</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold">Legal</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Política de privacidad</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Términos de servicio</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Política de cookies</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Licencias</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8">
+                <p class="text-gray-400 text-sm text-center">
+                    &copy; 2023 Innovacomp. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+    <script>feather.replace();</script>
+</body>
+</html>
